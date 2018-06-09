@@ -1,0 +1,27 @@
+{
+  "name": "said-cli",
+  "version": "1.0.0",
+  "description": "said cli first sli",
+  "main": "index.js",
+  "bin": {
+    "said": "bin/said"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "said"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "preferGlobal": true,
+  "author": "Said Hayani",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "minimist": "^1.2.0",
+    "ora": "^2.1.0"
+  }
+}
